@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(65, 42, 26);
+}
+input{
+    height: 30px;
+}
+#container{
+    width: 200px;
+}
+#submit{
+    width: 75px;
+    height: 35px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+    user-select: none;
+}
+#submit:hover{
+    background-color:rgb(213, 235, 255);
+}
+#submit:active{
+    background-color: rgb(144, 180, 212);
+}
